@@ -1,17 +1,17 @@
 # rdelf
-analyse ELF file.print part of the Header of a 32-bit/64-bit ELF file and map sections to corresponding segments.
-Ò»¸öELFÎÄ¼þ·ÖÎöÆ÷£¬´òÓ¡³ö²¿·ÖÎÄ¼þÍ·ÐÅÏ¢£¬¼ÆËãºÍ´òÓ¡³ösectionºÍsegmentµÄÓ³Éä¹ØÏµ¡£
+Analyse a 32-bit/64-bit ELF file.Print part of it's Header and map sections to corresponding segments.  
+ä¸€ä¸ªELFæ–‡ä»¶åˆ†æžå™¨ï¼Œæ‰“å°å‡ºéƒ¨åˆ†æ–‡ä»¶å¤´ä¿¡æ¯ï¼Œè®¡ç®—å’Œæ‰“å°å‡ºsectionå’Œsegmentçš„æ˜ å°„å…³ç³»ã€‚
 
 # needed
-gcc
-g++ (>=4.8)
-cmake (>=2.6)
-make
+- gcc
+- g++ (>=4.8)
+- cmake (>=2.6)
+- make
 
 # compile
-$ mkdir build && cd build
-$ cmake ..
-$ make
+$ mkdir build && cd build  
+$ cmake ..  
+$ make  
 
 # usage
-$ ./bin/rdelf ./elf_test_file
+$ ./bin/rdelf ./elf_test_file  
